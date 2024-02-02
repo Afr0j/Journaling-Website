@@ -1,0 +1,79 @@
+body {
+  display: flex;
+
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-family: "Righteous", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.navbar-nav li a:hover {
+  color: #536976 !important;
+}
+.d-flex {
+  width: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+  /* background-color: #bc531a; */
+}
+.footer p {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #fff;
+}
+.padding {
+  padding-top: 20px;
+}
+
+.form-hide {
+  margin: 0px;
+  padding: 0px;
+}
+.delete-btn {
+  margin: 0px;
+  padding: 0px;
+}
+.panel-body {
+  padding: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.inline {
+  display: inline;
+}
+
+.compose {
+  margin-top: 50px;
+  height: calc(100vh - 80px);
+}
+.post {
+  margin-top: 50px;
+}
+.content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.journee {
+  background: #536976;
+  background: -webkit-linear-gradient(to right, #484e76, #536976);
+  background: linear-gradient(to left, #484e76, #536976);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.list{
+  gap: 40px;
+  list-style: none;
+
+}
+
+
+.list a{
+  text-decoration: none;
+}

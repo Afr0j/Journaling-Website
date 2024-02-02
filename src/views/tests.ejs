@@ -1,0 +1,24 @@
+<%-include("partials /header" )%>
+
+  <h1>Home</h1>
+  <p class="padding">
+    <%=homeContent%>
+  </p>
+
+  <%allPost.forEach((elem)=>{%>
+    <h1>
+      <%= elem.title%>
+    </h1>
+    <% const sliced=elem.post.slice(0, 200); %>
+      <div class="padding">
+        <%=sliced%>...
+      </div>
+      <a href="/posts/<%=elem.title%>" target="_blank">Read More...</a>
+
+      <%})%>
+
+
+
+
+        <form action="/" method="post"></form>
+        <%-include("partials /footer")%>
